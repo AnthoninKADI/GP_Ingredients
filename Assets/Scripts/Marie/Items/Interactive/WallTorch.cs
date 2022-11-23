@@ -7,6 +7,7 @@ public class WallTorch : Interactive
 
     public static int LitTorchesCount = 0;
     public GameObject Chest;
+    public GameObject ChestLight;
     public override void OnInteraction()
     {
         //If I want to do the base OnInteraction anyway first
@@ -17,7 +18,8 @@ public class WallTorch : Interactive
         LitTorchesCount++;
         if(LitTorchesCount == 3)
         {
-           Chest.SetActive(true);
+            ChestLight.SetActive(true);
+            Chest.SetActive(true);
         }
     }
 }
