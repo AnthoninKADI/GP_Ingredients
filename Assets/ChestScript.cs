@@ -20,5 +20,7 @@ public class ChestScript : Interactive
     private void SpawnKey()
     {
         SilverKey.SetActive(true);
+        Destroy(GetComponent<SphereCollider>());
+        Destroy(this);
     }
 }
