@@ -41592,6 +41592,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: f57cc7a1624e76443b185852b327936b, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: f57cc7a1624e76443b185852b327936b, type: 3}
       propertyPath: m_Name
       value: CrystalBallINTERACTIVE
@@ -50595,6 +50599,10 @@ PrefabInstance:
       propertyPath: usableItems.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5827981051850980579, guid: 27b42d8653e2743da83063ad6fbb65a6, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6299300708754610075, guid: 27b42d8653e2743da83063ad6fbb65a6, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -52680,6 +52688,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 4c4e4839eaee70b4b9f3987785cfce57, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 4c4e4839eaee70b4b9f3987785cfce57, type: 3}
       propertyPath: m_Name
       value: Shield
@@ -71296,6 +71308,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 109676043087720277, guid: a4e9b6bedc832d841ad3be66625f6dd1, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2399452779178983147, guid: a4e9b6bedc832d841ad3be66625f6dd1, type: 3}
       propertyPath: m_Name
       value: SwordPICKABLE
@@ -71363,6 +71379,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5188052355556292879, guid: 3e2054d596a46a448b5648678f9e56b2, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5671009022623363041, guid: 3e2054d596a46a448b5648678f9e56b2, type: 3}
       propertyPath: data
       value: 
@@ -71481,6 +71501,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4151298966034033720, guid: 615e0305638994d4d893222cb0be6253, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4151298966034033723, guid: 615e0305638994d4d893222cb0be6253, type: 3}
       propertyPath: m_Name
       value: Book_OpenPick up
@@ -71567,6 +71591,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 2019414253}
     m_Modifications:
     - target: {fileID: 3014788156394432964, guid: e5d4f26d885ff904daee81109f26ac0c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6856948794406481593, guid: e5d4f26d885ff904daee81109f26ac0c, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6856948794406481593, guid: e5d4f26d885ff904daee81109f26ac0c, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
