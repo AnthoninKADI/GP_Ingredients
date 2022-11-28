@@ -2,12 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DoorEndThomasScript : Interactive
+public class GoldenKeyScriptThomas : Interactive
 {
-    public Animator animator;
+    public GameObject GoldenKey;
+
 
     public override void OnInteraction()
     {
-        animator.enabled = true;
+        GoldenKey.SetActive(true);
     }
 }
+
+
+

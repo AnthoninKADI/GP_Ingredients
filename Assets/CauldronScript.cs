@@ -5,17 +5,11 @@ using UnityEngine;
 
 public class CauldronScript : Interactive
 {
-    public GameObject RedPotion, PurplePotion, GreenPotion;
-    public GameObject RustyKey, GoldenKey;
+    public GameObject RustyKey;
 
 
     public override void OnInteraction()
     {
         RustyKey.SetActive(true);
-    }
-
-    private void SpawnGoldenKey()
-    {
-        GoldenKey.SetActive(true);
     }
 }
