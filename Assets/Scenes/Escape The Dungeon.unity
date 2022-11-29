@@ -5991,7 +5991,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionType: 2
   onlyOnce: 1
-  requiredItem: {fileID: 11400000, guid: 9475f2c7fb767e645acf9aa199fd1c29, type: 2}
+  requiredItems: []
   waitForObject: 1
   GoldenKey: {fileID: 1983637439}
 --- !u!135 &54509271
@@ -18716,7 +18716,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionType: 2
   onlyOnce: 1
-  requiredItem: {fileID: 11400000, guid: 15d9dae79edc4584886bbc1d8f94f7d9, type: 2}
+  requiredItems: []
   waitForObject: 1
   litTorch: {fileID: 11400000, guid: c434aac9fa7a6bc47bdb1182293ad768, type: 2}
 --- !u!1001 &225093692
@@ -27132,7 +27132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionType: 2
   onlyOnce: 1
-  requiredItem: {fileID: 11400000, guid: ebbf8e6820863fd4fbd657bb12c65177, type: 2}
+  requiredItems: []
   waitForObject: 1
   Lever: {fileID: 2123140866}
 --- !u!135 &410241984
@@ -37812,7 +37812,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionType: 2
   onlyOnce: 1
-  requiredItem: {fileID: 11400000, guid: 081ff3f82fddd294e90e25569b6ca399, type: 2}
+  requiredItems: []
   waitForObject: 1
   Book: {fileID: 740548699}
   Lever: {fileID: 947790775}
@@ -40038,7 +40038,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionType: 2
   onlyOnce: 1
-  requiredItem: {fileID: 11400000, guid: 44e11c22e2424e6419ec953908e98127, type: 2}
+  requiredItems: []
   waitForObject: 1
   animator: {fileID: 596019348}
 --- !u!95 &596019348
@@ -47541,7 +47541,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionType: 2
   onlyOnce: 1
-  requiredItem: {fileID: 11400000, guid: 3950f6d0c25f38f4db8094bf4e63c5e2, type: 2}
+  requiredItems: []
   waitForObject: 1
   OrbSpawn: {fileID: 1488491706}
   Book: {fileID: 985697509}
@@ -51078,7 +51078,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionType: 2
   onlyOnce: 1
-  requiredItem: {fileID: 11400000, guid: 7db99b0f5756d8c41843ab5365ed1733, type: 2}
+  requiredItems: []
   waitForObject: 1
   Sword: {fileID: 836128665}
   Banner: {fileID: 381667502}
@@ -54240,7 +54240,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionType: 2
   onlyOnce: 1
-  requiredItem: {fileID: 11400000, guid: 99fa7b4f812968f4696a2915e3453577, type: 2}
+  requiredItems: []
   waitForObject: 1
   animator: {fileID: 1355898316}
   Book: {fileID: 956864770}
@@ -55667,7 +55667,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionType: 2
   onlyOnce: 1
-  requiredItem: {fileID: 0}
+  requiredItems: []
   waitForObject: 0
   animatorGate: {fileID: 1184099684}
   animatorLever: {fileID: 1429274340}
@@ -67873,9 +67873,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6638389628579548449, guid: 27b42d8653e2743da83063ad6fbb65a6, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5827981052822675475, guid: 27b42d8653e2743da83063ad6fbb65a6, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 27b42d8653e2743da83063ad6fbb65a6, type: 3}
 --- !u!4 &1549616881 stripped
@@ -69903,7 +69904,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionType: 2
   onlyOnce: 1
-  requiredItem: {fileID: 11400000, guid: b205358823aa3d544894576ddd858f6c, type: 2}
+  requiredItems: []
   waitForObject: 0
   animator: {fileID: 1651678390}
 --- !u!1 &1652470619
@@ -72353,7 +72354,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionType: 2
   onlyOnce: 1
-  requiredItem: {fileID: 11400000, guid: c434aac9fa7a6bc47bdb1182293ad768, type: 2}
+  requiredItems: []
   waitForObject: 1
   Chest: {fileID: 0}
   ChestLight: {fileID: 0}
@@ -73463,7 +73464,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionType: 2
   onlyOnce: 1
-  requiredItem: {fileID: 11400000, guid: 471a6a8db8f60d3479971d23ce10b012, type: 2}
+  requiredItems: []
   waitForObject: 1
   animator: {fileID: 1827983467}
   BannerSpawn: {fileID: 995333051}
@@ -74932,7 +74933,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionType: 3
   onlyOnce: 0
-  requiredItem: {fileID: 0}
+  requiredItems: []
   waitForObject: 0
   SilverKey: {fileID: 1556504766}
   animator: {fileID: 1887760994}
@@ -82309,7 +82310,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionType: 2
   onlyOnce: 1
-  requiredItem: {fileID: 11400000, guid: c434aac9fa7a6bc47bdb1182293ad768, type: 2}
+  requiredItems: []
   waitForObject: 1
   Chest: {fileID: 0}
   ChestLight: {fileID: 0}
@@ -82579,7 +82580,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionType: 2
   onlyOnce: 1
-  requiredItem: {fileID: 11400000, guid: 85c800c0418fe864daa9d5abc1d748c7, type: 2}
+  requiredItems: []
   waitForObject: 1
   RustyKey: {fileID: 36281449}
 --- !u!135 &2031874399
@@ -84460,7 +84461,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionType: 2
   onlyOnce: 1
-  requiredItem: {fileID: 0}
+  requiredItems: []
   waitForObject: 0
   animator: {fileID: 2123140869}
   SwordSpawn: {fileID: 763847958}
@@ -89785,7 +89786,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f04f40765f775d942a127d125625cf54, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3282215317461442009, guid: 38e718841ba98f146ad16298c04eb904, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 38e718841ba98f146ad16298c04eb904, type: 3}
 --- !u!1 &9038126949266174309 stripped
