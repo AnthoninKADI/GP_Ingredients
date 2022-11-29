@@ -6,7 +6,7 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     public static Inventory Instance;
-    
+
     private List<KeyItemData> _foundKeys = new List<KeyItemData>();
     [SerializeField] private List<KeyItem> usableItems;
     [SerializeField] private Transform hand;
@@ -40,7 +40,7 @@ public class Inventory : MonoBehaviour
             _foundKeys.Add(keyItem);
             usableItems.Add(keyInstance.GetComponent<KeyItem>());
             //Utilise le dernier trouvé
-            HoldItem(usableItems.Count-1);
+            HoldItem(usableItems.Count - 1);
         }
     }
 
@@ -53,7 +53,7 @@ public class Inventory : MonoBehaviour
                 return item;
             }
         }
-        
+
         //Easier method would be
         //return usableItems.FindIndex(item => item.GetComponent<KeyItem>()?.ID == id);
 
@@ -80,7 +80,7 @@ public class Inventory : MonoBehaviour
     {
         if (usableItems.Count != 0)
         {
-            int next = ((objectInHand+1)%usableItems.Count)-1;
+            int next = ((objectInHand + 1) % usableItems.Count) - 1;
             HoldItem(next);
         }
     }
@@ -89,6 +89,19 @@ public class Inventory : MonoBehaviour
     {
         //Empty ID means no necessary key item
         //true if the id is found in the list, false otherwise
-        return key==null|| _foundKeys.Contains(key);
+        return key == null || _foundKeys.Contains(key);
+    }
+
+    public bool HasEveryItem(List<KeyItemData> keys)
+    {
+        foreach (KeyItemData key in keys)
+        {
+            if (!IsItemFound(key))
+            {
+                return false;
+            }
+        }
+
+        return true;
     }
 }
